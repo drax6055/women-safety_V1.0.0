@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="top"
+        android:background="@color/colorWhite"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/armata"
+                    android:gravity="center_vertical"
+                    android:text="@string/app_name"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/bar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:src="@drawable/bar" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/submenu"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+            <!-- HOME COMPONENTES ADD HEAR   -->
+            <LinearLayout
+                android:id="@+id/btnrow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_add_contact"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="5"
+                    android:backgroundTint="#FEE3EC"
+                    android:drawableTop="@drawable/addcontact"
+                    android:fontFamily="@font/armata"
+                    android:padding="10dp"
+                    android:text="@string/add_contact"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/black"
+                    app:rippleColor="@color/rippleColor" />
+
+                <Button
+                    android:id="@+id/btn_siren"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="5"
+                    android:backgroundTint="#FFE0B2"
+                    android:drawableTop="@drawable/siren"
+                    android:fontFamily="@font/armata"
+                    android:padding="10dp"
+                    android:text="@string/siren"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/black"
+                    app:rippleColor="@color/rippleColor" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnrow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnrow1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_panic"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="5"
+                    android:backgroundTint="#DCEDC8"
+                    android:drawableTop="@drawable/alert_message"
+                    android:fontFamily="@font/armata"
+                    android:padding="10dp"
+                    android:text="@string/alert"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/black"
+                    app:rippleColor="@color/rippleColor" />
+
+                <Button
+                    android:id="@+id/btn_camera"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="5"
+                    android:backgroundTint="#C5CAE9"
+                    android:drawableTop="@drawable/cam"
+                    android:fontFamily="@font/armata"
+                    android:padding="10dp"
+                    android:text="@string/camera"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/black"
+                    app:rippleColor="@color/rippleColor" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnrow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnrow2"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/shareLocationbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="5"
+                    android:backgroundTint="#B2DFDB"
+                    android:drawableTop="@drawable/share_loc"
+                    android:fontFamily="@font/armata"
+                    android:padding="10dp"
+                    android:text="@string/share_nlocation"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/black"
+                    app:rippleColor="@color/rippleColor" />
+
+                <Button
+                    android:id="@+id/btn_Emergency_contect"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="5"
+                    android:backgroundTint="#E7BED9"
+                    android:drawableTop="@drawable/eme_call"
+                    android:fontFamily="@font/armata"
+                    android:padding="10dp"
+                    android:text="@string/speed_dial"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/black"
+                    app:rippleColor="@color/rippleColor" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/navigation"
+        android:id="@+id/submenu"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/preEvent"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:backgroundTint="#F1E9A6"
+                android:fontFamily="@font/armata"
+                android:textAllCaps="false"
+                android:text="@string/pre_alert"
+                android:textColor="@color/black"
+                app:rippleColor="@color/rippleColor"
+                android:drawableLeft="@drawable/pre_alert"/>
+            <Button
+                android:id="@+id/where_am_i"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:backgroundTint="#FBCFC1"
+                android:fontFamily="@font/armata"
+                android:textAllCaps="false"
+                android:text="@string/where_am_i"
+                android:textColor="@color/black"
+                app:rippleColor="@color/rippleColor"
+                android:drawableLeft="@drawable/where_am_i" />
+
+            <Button
+                android:id="@+id/selfDefence"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:backgroundTint="#80CBC4"
+                android:fontFamily="@font/armata"
+                android:text="@string/self_defence_tips"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/videos"
+                android:textColor="@color/black"
+                app:rippleColor="@color/rippleColor" />
+
+            <Button
+                android:id="@+id/btn_law"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:textAllCaps="false"
+                android:backgroundTint="#F4AEC6"
+                android:drawableLeft="@drawable/law2"
+                android:fontFamily="@font/armata"
+                android:text="@string/law"
+                android:textColor="@color/black"
+                app:rippleColor="@color/rippleColor" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:divider="@null"
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorWhite"
+        app:itemIconTint="@color/bottomnavigation_color"
+        app:itemRippleColor="@color/rippleColor"
+        app:itemTextColor="@color/bottomnavigation_color"
+        app:menu="@menu/bottom_navigation_menu" />
+</RelativeLayout>

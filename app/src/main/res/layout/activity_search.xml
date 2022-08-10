@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/search"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".search">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorWhite"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/armata"
+                    android:gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:text="@string/search"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/navigation"
+            android:layout_below="@+id/toolbar">
+
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/google_map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_alignParentTop="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/btn_map_police"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:backgroundTint="#FFCDD2"
+                        android:textAllCaps="false"
+                        android:fontFamily="@font/armata"
+                        android:drawableLeft="@drawable/police"
+                        android:padding="5dp"
+                        android:text="@string/police_station"
+                        android:textColor="@color/black"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        app:rippleColor="@color/rippleColor"
+                        />
+                    <Button
+                        android:id="@+id/btn_map_hospital"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:backgroundTint="#FFECB3"
+                        android:textAllCaps="false"
+                        android:fontFamily="@font/armata"
+                        android:padding="5dp"
+                        android:drawableLeft="@drawable/telephone"
+                        android:text="@string/hospital"
+                        android:textColor="@color/black"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        app:rippleColor="@color/rippleColor"
+                        />
+                    <Button
+                        android:id="@+id/btn_serchPlace"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:backgroundTint="#C5CAE9"
+                        android:textAllCaps="false"
+                        android:fontFamily="@font/armata"
+                        android:padding="5dp"
+                        android:drawableLeft="@drawable/search"
+                        android:text="@string/search_more"
+                        android:textColor="@color/black"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        app:rippleColor="@color/rippleColor"
+                        />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorWhite"
+            app:itemIconTint="@color/bottomnavigation_color"
+            app:itemRippleColor="@color/rippleColor"
+            app:itemTextColor="@color/bottomnavigation_color"
+            app:menu="@menu/bottom_navigation_menu" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

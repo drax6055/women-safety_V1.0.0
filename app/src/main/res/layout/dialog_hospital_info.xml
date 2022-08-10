@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:background="@android:color/transparent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#fff">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/armata"
+                        android:text="@string/civil_genral_nhospital"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="#B3000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/armata"
+                        android:text="@string/rating_t_t4_1_ncoordinate_n_t_t_t_t22_679649_72_873188_nhours_n_t_t_t_topen_24_hours_naddress_n_t_t_t_t_civil_hospital_rd_yogiraj_society_n_t_t_t_t_nadiad_gujarat_387001_nphone_n_t_t_t_t0268_252_9074"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="#BDBDBD" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:id="@+id/hcall1"
+                    android:src="@drawable/phone"
+                    android:layout_margin="5dp"
+                    app:tint="#555555" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#fff">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/armata"
+                        android:text="@string/sheth_h_j_nmahagujarat_hospital"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="#B3000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/armata"
+                        android:text="@string/rating_t_t3_5_ncoordinate_n_t_t_t_t22_689081_72_871696_nhours_n_t_t_t_topen_24_hours_naddress_n_t_t_t_t_college_rd_near_shanti_nagar_n_t_t_t_t_nadiad_gujarat_387001_nphone_n_t_t_t_t0268_252_9074"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="#BDBDBD" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:id="@+id/hcall2"
+                    android:src="@drawable/phone"
+                    android:layout_margin="5dp"
+                    app:tint="#555555" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#fff">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/armata"
+                        android:text="@string/shreenath_nhospital"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="#B3000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/armata"
+                        android:text="@string/rating_t_t4_6_ncoordinate_n_t_t_t_t22_691495_72_862724_nhours_n_t_t_t_topen_24_hours_naddress_n_t_t_t_tnear_d_p_desai_high_school_n_t_t_t_tsantram_mandir_rd_opp_lalit_lab_nphone_n_t_t_t_t0268_256_7505"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="#BDBDBD" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:id="@+id/hcall3"
+                    android:src="@drawable/phone"
+                    android:layout_margin="5dp"
+                    app:tint="#555555" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#fff">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/armata"
+                        android:text="@string/dr_vikram_nhospital"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="#B3000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/armata"
+                        android:text="@string/rating_t_t4_6_ncoordinate_n_t_t_t_t22_689227_72_872414_nhours_n_t_t_t_topen_24_hours_naddress_n_t_t_t_t_s_1_2nd_floor_skyline_n_t_t_t_topposite_magujrat_hospital_nphone_n_t_t_t_t075678_28686"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="#BDBDBD" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:id="@+id/hcall4"
+                    android:src="@drawable/phone"
+                    android:layout_margin="5dp"
+                    app:tint="#555555" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#fff">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/armata"
+                        android:text="@string/keya_nhospitals"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="#B3000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/armata"
+                        android:text="@string/rating_t_t3_4_ncoordinate_n_t_t_t_t22_692618_72_855290_nhours_n_t_t_t_t9am_to_7_30pm_naddress_n_t_t_t_tnear_patel_society_n_t_t_t_tnadiad_gujarat_387002_nphone_n_t_t_t_t090330_31132"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="#BDBDBD" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:id="@+id/hcall5"
+                    android:src="@drawable/phone"
+                    android:layout_margin="5dp"
+                    app:tint="#555555" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</HorizontalScrollView>

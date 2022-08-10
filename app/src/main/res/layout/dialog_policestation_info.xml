@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:background="@android:color/transparent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#fff"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#B3000000"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/armata"
+                        android:text="@string/nadiad_main_npolice_station"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/armata"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="#BDBDBD"
+                        android:text="@string/rating_t_t3_9_ncoordinate_n_t_t_t_t22_6941772_72_8584392_naddress_n_t_t_t_tsubhash_nagar_nadiad_n_t_t_t_t_gujarat_387001_n_phone_n_t_t_t_t_91_268_255_0232"
+                        />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:id="@+id/pcall1"
+                    android:src="@drawable/phone"
+                    android:layout_margin="5dp"
+                    app:tint="#555555" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#fff">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#B3000000"
+                        android:layout_margin="5dp"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/armata"
+                        android:text="@string/amdavadi_bazzar_npolice_station"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/armata"
+                        android:text="@string/rating_t_t4_0_ncoordinate_n_t_t_t_t22_697118_72_8629673_naddress_n_t_t_t_tbhavsar_waad_amdavadi_n_t_t_t_tbazar_road_navaraopura_n_t_t_t_t_nadiad_gujarat_387001"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="#BDBDBD" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#fff"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#B3000000"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/armata"
+                        android:text="@string/subhash_nagar_npolice_station"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/armata"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="#BDBDBD"
+                        android:text="@string/rating_t_t4_6_ncoordinate_n_t_t_t_t22_6985439_72_8549872_naddress_n_t_t_t_tsubhash_nagar_nadiad_n_t_t_t_tgujarat_387001_india_nphone_n_t_t_t_t_91_268_256_1800"
+                        />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:id="@+id/pcall3"
+                    android:src="@drawable/phone"
+                    android:layout_margin="5dp"
+                    app:tint="#555555" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#fff">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/armata"
+                        android:text="@string/jawahar_npolice_choki"
+                        android:layout_gravity="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="#B3000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/armata"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="#BDBDBD"
+                        android:text="@string/rating_t_t5_0_ncoordinate_n_t_t_t_t22_7091596_72_8609389_naddress_n_t_t_t_tst_nagar_nadiad_gujarat_n_t_t_t_t387002_india_nphone_n_t_t_t_t_91_268_256_8087"
+                        />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:id="@+id/pcall4"
+                    android:src="@drawable/phone"
+                    android:layout_margin="5dp"
+                    app:tint="#555555" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#fff"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#B3000000"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/armata"
+                        android:layout_gravity="center"
+                        android:text="@string/vallabh_nagar_n_police_station"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/armata"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="#BDBDBD"
+                        android:text="@string/rating_t_t4_2_ncoordinate_n_t_t_t_t22_690597_72_8552629_naddress_n_t_t_t_2_a_mai_mandir_rd_nadiad_n_t_t_t_t387002_nadiad_n_t_t_t_t_gujarat_n_phone_n_t_t_t_t_91_268_255_0232"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</HorizontalScrollView>
